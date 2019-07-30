@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Neomi</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="icon" href="images/fav-icon.png">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
+  	<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+  	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<main>
+		<!-- Header start here -->
+		<header>
+			<div class="container-fluid">
+				<nav class="navbar navbar-expand-lg justify-content-end">
+				  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+				    <i class="fas fa-bars"></i>
+				  	</button>
+				  	<div class="collapse navbar-collapse justify-content-between" id="navbarNavDropdown">
+				    	<ul class="navbar-nav text-uppercase">
+				      		<li class="nav-item dropdown">
+				        		<a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				          			Home
+				        		</a>
+				        	  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+				         		<a class="dropdown-item text-uppercase" href="#">Home 1</a>
+				          		<a class="dropdown-item text-uppercase" href="#">home 2</a>
+				          		<a class="dropdown-item text-uppercase" href="#">Home 3</a>
+				        	  </div>
+				     		</li>
+				     		<li class="nav-item dropdown">
+				        		<a class="nav-link dropdown-toggle text-uppercase" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				          			Features
+				        		</a>
+				        	  <div class="dropdown-menu text-uppercase" aria-labelledby="navbarDropdownMenuLink">
+				         		<a class="dropdown-item text-uppercase" href="#">Features 1</a>
+				          		<a class="dropdown-item text-uppercase" href="#">Features 2</a>
+				          		<a class="dropdown-item text-uppercase" href="#">Features 3</a>
+				        	  </div>
+				     		</li>
+				     		<li class="nav-item dropdown">
+				        		<a class="nav-link dropdown-toggle " href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				          			Postype
+				        		</a>
+				        	  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+				         		<a class="dropdown-item" href="#">Postype 1</a>
+				          		<a class="dropdown-item" href="#">Postype 2</a>
+				          		<a class="dropdown-item" href="#">Postype 3</a>
+				        	  </div>
+				     		</li>
+				     		<li class="nav-item dropdown">
+				        		<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				          			Pages
+				        		</a>
+				        	  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+				         		<a class="dropdown-item" href="#">Pages 1</a>
+				          		<a class="dropdown-item" href="#">Pages 2</a>
+				          		<a class="dropdown-item" href="#">Pages 3</a>
+				        	  </div>
+				     		</li>
+				     		<li class="nav-item dropdown">
+				        		<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				          			Catagories
+				        		</a>
+				        	  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+				         		<a class="dropdown-item" href="#">Catagories 1</a>
+				          		<a class="dropdown-item" href="#">Catagories 2</a>
+				          		<a class="dropdown-item" href="#">Catagories 3</a>
+				        	  </div>
+				     		</li>
+				     		<li class="nav-item">
+       							<a class="nav-link" href="#">Conatct</a>
+      						</li>
+				        </ul>
+				        <ul class="header-top-social">
+				        	<li>
+				        		<a href="#" target="_blank">
+				        			<i class="fab fa-twitter"></i>
+				        		</a>
+				        	</li>
+				        	<li>
+				        		<a href="#" target="_blank">
+				        			<i class="fab fa-facebook-f"></i>
+				        		</a>
+				        	</li>
+				        	<li>
+				        		<a href="#" target="_blank">
+				        			<i class="fab fa-linkedin-in"></i>
+				        		</a>
+				        	</li>
+				        	<li>
+				        		<a href="#" target="_blank">
+				        			<i class="fab fa-instagram"></i>
+				        		</a>
+				        	</li>
+				        	<li>
+				        		<a href="#" target="_blank">
+				        			<i class="fab fa-google-plus-g"></i>
+				        		</a>
+				        	</li>
+				        </ul>
+				    </div>
+				</nav>
+				<div class="logo text-center">
+				<a href="#">
+					<img src="images/logo.png">
+				</a>
+			</div>
+			</div>
+		</header>
+		<!-- Header start end here -->
+
+		<!--  start here -->
+		<section>
+			<div class="container-fluid">
+				<div class="wrapper row" id="wrapper">
+					<div class="col-md-4">
+						<div class="beauty-healt-life">
+							<div class="border-box">
+								<h6>
+									<a href="#">
+									   Beauty
+								    </a>  
+								    <a href="#">
+									   Health 
+								    </a>  
+								    <a href="#">
+									   Lifestyle
+								    </a>  
+								</h6>
+								<h4 class="text-white">Form Grapfruit to Lemon To Orange, Citrus Dose You Good!</h4>
+								<div class="comment d-flex justify-content-between">
+									<span class="date">June 14,2015</span>
+									<button class="btn" type="button">
+										<span class="cmt-icon date">
+											<i class="fas fa-comment"></i>
+											24
+										</span>
+									</button>	
+								</div>
+							</div>
+						</div>
+					</div>	
+					<div class="col-md-4">
+						<div class="beauty-healt-life health-background">
+							<div class="border-box">
+								<h6>  
+								    <a href="#">
+									   Health 
+								    </a>  
+								</h6>
+								<h4 class="text-white">5 tips to superchages your motivation</h4>
+								<div class="comment d-flex justify-content-between">
+									<span class="date">June 14,2015</span>
+									<button class="btn" type="button">
+										<span class="cmt-icon date">
+											<i class="fas fa-comment"></i>
+											2
+										</span>
+									</button>	
+								</div>
+							</div>
+						</div>
+					</div>	
+					<div class="col-md-4">
+						<div class="beauty-healt-life beauty-background">
+							<div class="border-box">
+								<h6>
+									<a href="#">
+									   Beauty
+								    </a> 
+								</h6>
+								<h4 class="text-white">To keep makeup fresh take a 	powder</h4>
+								<div class="comment d-flex justify-content-between">
+									<span class="date">June 14,2015</span>
+									<button class="btn" type="button">
+										<span class="cmt-icon date">
+											<i class="fas fa-comment"></i>
+											2
+										</span>
+									</button>	
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>	
+			</div>
+		</section>
+		<!--  End here -->
+
+		<!--  Post start here -->
+		<section class="posts">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-lg-8">
+						<div class="post1 mt-50" >
+							<div class="post d-md-flex d-lg-flex">
+								<div class="post-image">
+									<img src="images/post-1.jpg" title="art" alt="art">
+								</div>
+								<div class="post-info">
+									<div class="post-heading border-box">
+										<h6 class="text-left">
+											<a href="#">
+											   Art
+										    </a>  
+										    <a href="#">
+											   Health 
+										    </a>  
+									      
+									   </h6>	
+										<h4 class="text-left">Barbecue part tips for a truely amazing event</h4>
+										<div class="post-date">
+											<span class="date"> June 14,2015</span>
+										     <a href="#" class="author">by Author Doe</a>
+										</div>
+									</div>	
+									<div class="post-description">
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+										<a href="#">
+											<i class="fas fa-circle"></i>
+											<i class="fas fa-circle"></i>
+											<i class="fas fa-circle"></i>
+										</a>
+								   </div>
+								   <div class="post-social d-flex justify-content-between">
+									<button type="button" class="btn"> 
+										<i class="far fa-comment"></i>
+											24
+									</button>
+									<div class="social-icon">
+										<a href="#" class="share">
+											share
+										</a>
+										<a href="#" target="_blank">
+					        				<i class="fab fa-twitter"></i>
+					        			</a>
+					        			<a href="#" target="_blank">
+					        				<i class="fab fa-pinterest"></i>
+					        			</a>
+					        			<a href="#" target="_blank">
+					        				<i class="fab fa-facebook-f"></i>
+					        			</a>
+									</div>
+								</div>
+								</div>							
+							</div>
+						</div>
+						<!-- Post2 start here -->
+						<div class="post2 mt-50" >
+							<div class="post d-md-flex d-lg-flex">
+								<div class="post-image">
+									<img src="images/post2.jpg" title="art" alt="art">
+								</div>
+								<div class="post-info">
+									<div class="post-heading border-box">
+										<h6 class="text-left">
+											<a href="#">
+											   Art
+										    </a>  
+										    <a href="#">
+											   Health 
+										    </a>  
+									      
+									   </h6>	
+										<h4 class="text-left">Barbecue part tips for a truely amazing event</h4>
+										<div class="post-date">
+											<span class="date"> June 14,2015</span>
+										     <a href="#" class="author">by Author Doe</a>
+										</div>
+									</div>	
+									<div class="post-description">
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+										<a href="#">
+											<i class="fas fa-circle"></i>
+											<i class="fas fa-circle"></i>
+											<i class="fas fa-circle"></i>
+										</a>
+								   </div>
+								   <div class="post-social d-flex justify-content-between">
+									<button type="button" class="btn">
+										<i class="far fa-comment"></i>
+											24
+									</button>
+									<div class="social-icon">
+										<a href="#" class="share">
+											share
+										</a>
+										<a href="#" target="_blank">
+					        				<i class="fab fa-twitter"></i>
+					        			</a>
+					        			<a href="#" target="_blank">
+					        				<i class="fab fa-pinterest"></i>
+					        			</a>
+					        			<a href="#" target="_blank">
+					        				<i class="fab fa-facebook-f"></i>
+					        			</a>
+									</div>
+								</div>
+								</div>							
+							</div>
+						</div>
+						<!-- Post2 end here -->
+
+						<!-- Post3 start here -->
+						<div class="post3 mt-50" >
+							<div class="post d-md-flex d-lg-flex">
+								<div class="post-image">
+									<img src="images/post3.jpg" title="art" alt="art">
+								</div>
+								<div class="post-info">
+									<div class="post-heading border-box">
+										<h6 class="text-left">
+											<a href="#">
+											   Art
+										    </a>  
+										    <a href="#">
+											   Health 
+										    </a>  
+									      
+									   </h6>	
+										<h4 class="text-left">Barbecue part tips for a truely amazing event</h4>
+										<div class="post-date">
+											<span class="date"> June 14,2015</span>
+										     <a href="#" class="author">by Author Doe</a>
+										</div>
+									</div>	
+									<div class="post-description">
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+										<a href="#">
+											<i class="fas fa-circle"></i>
+											<i class="fas fa-circle"></i>
+											<i class="fas fa-circle"></i>
+										</a>
+								   </div>
+								   <div class="post-social d-flex justify-content-between">
+									<button type="button" class="btn">
+										<i class="far fa-comment"></i>
+											24
+									</button>
+									<div class="social-icon">
+										<a href="#" class="share">
+											share
+										</a>
+										<a href="#" target="_blank">
+					        				<i class="fab fa-twitter"></i>
+					        			</a>
+					        			<a href="#" target="_blank">
+					        				<i class="fab fa-pinterest"></i>
+					        			</a>
+					        			<a href="#" target="_blank">
+					        				<i class="fab fa-facebook-f"></i>
+					        			</a>
+									</div>
+								</div>
+								</div>							
+							</div>
+						</div>
+						<!-- Post3 end here -->
+
+						<!-- Post4 start here -->
+						<div class="post4 mt-50">
+							<div class="post d-md-flex d-lg-flex">
+								<div class="post-image">
+									<img src="images/post4.jpg" title="art" alt="art">
+								</div>
+								<div class="post-info">
+									<div class="post-heading border-box">
+										<h6 class="text-left">
+											<a href="#">
+											   Art
+										    </a>  
+										    <a href="#">
+											   Health 
+										    </a>  
+									      
+									   </h6>	
+										<h4 class="text-left">Barbecue part tips for a truely amazing event</h4>
+										<div class="post-date">
+											<span class="date"> June 14,2015</span>
+										     <a href="#" class="author">by Author Doe</a>
+										</div>
+									</div>	
+									<div class="post-description">
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+										<a href="#">
+											<i class="fas fa-circle"></i>
+											<i class="fas fa-circle"></i>
+											<i class="fas fa-circle"></i>
+										</a>
+								   </div>
+								   <div class="post-social d-flex justify-content-between">
+									<button type="button" class="btn">
+										<i class="far fa-comment"></i>
+											24
+									</button>
+									<div class="social-icon">
+										<a href="#" class="share">
+											share
+										</a>
+										<a href="#" target="_blank">
+					        				<i class="fab fa-twitter"></i>
+					        			</a>
+					        			<a href="#" target="_blank">
+					        				<i class="fab fa-pinterest"></i>
+					        			</a>
+					        			<a href="#" target="_blank">
+					        				<i class="fab fa-facebook-f"></i>
+					        			</a>
+									</div>
+								</div>
+								</div>							
+							</div>
+						</div>
+						<!-- Post4 end here -->
+
+						<!-- Post5 start here -->
+						<div class="post5 mt-50" >
+							<div class="post d-md-flex d-lg-flex">
+								<div class="post-image">
+									<img src="images/post5.jpg" title="art" alt="art">
+								</div>
+								<div class="post-info">
+									<div class="post-heading border-box">
+										<h6 class="text-left">
+											<a href="#">
+											   Art
+										    </a>  
+										    <a href="#">
+											   Health 
+										    </a>  
+									      
+									   </h6>	
+										<h4 class="text-left">Barbecue part tips for a truely amazing event</h4>
+										<div class="post-date">
+											<span class="date"> June 14,2015</span>
+										     <a href="#" class="author">by Author Doe</a>
+										</div>
+									</div>	
+									<div class="post-description">
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+										<a href="#">
+											<i class="fas fa-circle"></i>
+											<i class="fas fa-circle"></i>
+											<i class="fas fa-circle"></i>
+										</a>
+								   </div>
+								   <div class="post-social d-flex justify-content-between">
+									<button type="button" class="btn">
+										<i class="far fa-comment"></i>
+											24
+									</button>
+									<div class="social-icon">
+										<a href="#" class="share">
+											share
+										</a>
+										<a href="#" target="_blank">
+					        				<i class="fab fa-twitter"></i>
+					        			</a>
+					        			<a href="#" target="_blank">
+					        				<i class="fab fa-pinterest"></i>
+					        			</a>
+					        			<a href="#" target="_blank">
+					        				<i class="fab fa-facebook-f"></i>
+					        			</a>
+									</div>
+								</div>
+								</div>							
+							</div>
+						</div>
+						<!-- Post5 end here -->
+
+						<!-- Post6 start here -->
+						<div class="post6 mt-50">
+							<div class="post d-md-flex d-lg-flex">
+								<div class="post-image">
+									<img src="images/post6.jpg" title="art" alt="art">
+								</div>
+								<div class="post-info">
+									<div class="post-heading border-box">
+										<h6 class="text-left">
+											<a href="#">
+											   Art
+										    </a>  
+										    <a href="#">
+											   Health 
+										    </a>  
+									      
+									   </h6>	
+										<h4 class="text-left">Barbecue part tips for a truely amazing event</h4>
+										<div class="post-date">
+											<span class="date"> June 14,2015</span>
+										     <a href="#" class="author">by Author Doe</a>
+										</div>
+									</div>	
+									<div class="post-description">
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+										<a href="#">
+											<i class="fas fa-circle"></i>
+											<i class="fas fa-circle"></i>
+											<i class="fas fa-circle"></i>
+										</a>
+								   </div>
+								   <div class="post-social d-flex justify-content-between">
+									<button type="button" class="btn">
+										<i class="far fa-comment"></i>
+											24
+									</button>
+									<div class="social-icon">
+										<a href="#" class="share">
+											share
+										</a>
+										<a href="#" target="_blank">
+					        				<i class="fab fa-twitter"></i>
+					        			</a>
+					        			<a href="#" target="_blank">
+					        				<i class="fab fa-pinterest"></i>
+					        			</a>
+					        			<a href="#" target="_blank">
+					        				<i class="fab fa-facebook-f"></i>
+					        			</a>
+									</div>
+								</div>
+								</div>							
+							</div>
+						</div>
+						<!-- Post6 end here -->
+
+						<!-- Post7 start here -->
+						<div class="post7 mt-50">
+							<div class="post d-md-flex d-lg-flex">
+								<div class="post-image">
+									<img src="images/post-1.jpg" title="art" alt="art">
+								</div>
+								<div class="post-info">
+									<div class="post-heading border-box">
+										<h6 class="text-left">
+											<a href="#">
+											   Art
+										    </a>  
+										    <a href="#">
+											   Health 
+										    </a>  
+									      
+									   </h6>	
+										<h4 class="text-left">Barbecue part tips for a truely amazing event</h4>
+										<div class="post-date">
+											<span class="date"> June 14,2015</span>
+										     <a href="#" class="author">by Author Doe</a>
+										</div>
+									</div>	
+									<div class="post-description">
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+										<a href="#">
+											<i class="fas fa-circle"></i>
+											<i class="fas fa-circle"></i>
+											<i class="fas fa-circle"></i>
+										</a>
+								   </div>
+								   <div class="post-social d-flex justify-content-between">
+									<button type="button" class="btn">
+										<i class="far fa-comment"></i>
+											24
+									</button>
+									<div class="social-icon">
+										<a href="#" class="share">
+											share
+										</a>
+										<a href="#" target="_blank">
+					        				<i class="fab fa-twitter"></i>
+					        			</a>
+					        			<a href="#" target="_blank">
+					        				<i class="fab fa-pinterest"></i>
+					        			</a>
+					        			<a href="#" target="_blank">
+					        				<i class="fab fa-facebook-f"></i>
+					        			</a>
+									</div>
+								</div>
+								</div>							
+							</div>
+						</div>
+					</div>
+					<!-- Post7 end here -->
+
+					<div class="col-md-1 col-lg-1"></div>
+
+					<!-- Side-widgets start here -->
+					<div class="col-md-3 col-lg-3 sidebar-widgets">
+						<!-- About me Start here -->
+						<div class="about-me" >
+						  <div class="border-box">
+							<div class="Card text-center">
+								<div class="about-img position-relative">
+									<img src="images/profile.png" class="card-img-top position-absolute" alt="image" width="100%">
+								</div>
+								<div class="about-info">
+									<h3 class="text-uppercase heading">About me</h3>
+									<p class="font-italic">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+									<h2>Follow me on</h2>
+								  <div class="about-social-icon">	
+									<ul class="header-top-social">
+						        		<li>
+							        		<a href="#">
+							        			<i class="fab fa-twitter"></i>
+							        		</a>
+						        	    </li>
+						        	    <li>
+						        			<a href="#" target="_blank">
+						        			   <i class="fab fa-facebook-f"></i>
+						        		    </a>
+						        		</li>
+						        		<li>
+						        			<a href="#" target="_blank">
+						        			   <i class="fab fa-linkedin-in"></i>
+						        			</a>
+						        		</li>
+						        		<li>
+						        		    <a href="#" target="_blank">
+						        			   <i class="fab fa-instagram"></i>
+						        			</a>
+						        		</li>
+						        		<li>
+						        			<a href="#" target="_blank">
+						        			   <i class="fab fa-google-plus-g"></i>
+						        			</a>
+						        		</li>
+						        	</ul>
+						         </div>
+						        </div>	
+							</div>
+						 </div>
+					    </div>
+					    <!-- Newsletter Start here -->
+					    <div class="newsletter mt-40">
+							<h3 class="text-uppercase heading text-center">Newsletter</h3>
+							<hr>
+							<form action="" class="text-center">
+								<div class="form-group">
+									<input type="email" class="form-control" id="email" placeholder="Your emai address">
+								</div>
+								<button type="button" class="btn text-white text-uppercase">Subscribe</button>
+							</form>
+						</div>
+						<!-- Newsletter end here -->
+
+						<!-- follow start here -->
+						<div class="follow mt-40" >
+							<h3 class="text-uppercase heading text-center">Follow@noemi.theme</h3>
+							<hr>
+							<ul class="d-flex flex-wrap list-unstyled">
+								<li>
+									<img src="images/follow.jpg" alt="img1">
+								</li>
+								<li>
+									<img src="images/follow1.jpg" alt="img1">
+								</li>
+								<li>
+									<img src="images/follow2.jpg" alt="img1">
+								</li>
+								<li>
+									<img src="images/follow3.jpg" alt="img1">
+								</li>
+								<li>
+									<img src="images/follow4.jpg" alt="img1">
+								</li>
+								<li>
+									<img src="images/follow5.jpg" alt="img1">
+								</li>
+								<li>
+									<img src="images/follow6.jpg" alt="img1">
+								</li>
+								<li>
+									<img src="images/follow7.jpg" alt="img1">
+								</li>
+								<li>
+									<img src="images/follow8.jpg" alt="img1">
+								</li>
+
+							</ul>
+						</div>
+						<!-- follow end here -->
+
+						<!--  Categories start here -->	
+						<div class="categories mt-40">
+							<h3 class="text-uppercase heading text-center">Categories</h3>
+							<hr>
+							<ul class="cat-list list-unstyled">
+								<li>
+									<a href="#">
+										<span>Beauty</span>
+										<span class="badge">12</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span>Health</span>
+										<span class="badge">12</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span>Lifestyle</span>
+										<span class="badge">12</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span>Music</span>
+										<span class="badge">12</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span>Sport</span>
+										<span class="badge">12</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span>Yoga</span>
+										<span class="badge">12</span>
+									</a>
+								</li>
+							</ul>
+							
+						</div>
+						<!--  Categories end here -->
+
+						<!--  Recent Start here -->
+						<div class="recent-post mt-40">
+							<h3 class="text-uppercase heading text-center">Recent Post</h3>
+							<hr>
+							<div class="recent-post-info d-flex">
+								<img src="images/recent.jpg" alt="post">
+								<div class="rp-description">
+									<span class="date">
+										july 14,2015
+									</span>
+									<h6 class="text-uppercase text-left">
+										<a href="#" class="recent-link"> Lorem Ipsum Right now </a>
+									</h6>
+								</div>
+							</div>
+							<div class="recent-post-info d-flex">
+								<img src="images/recent.jpg" alt="post">
+								<div class="rp-description">
+									<span class="date">
+										july 14,2015
+									</span>
+									<h6 class="text-uppercase text-left">
+										<a href="#" class="recent-link"> Lorem Ipsum Right now </a>
+									</h6>
+								</div>
+							</div>
+							<div class="recent-post-info d-flex">
+								<img src="images/recent.jpg" alt="post">
+								<div class="rp-description">
+									<span class="date">
+										july 14,2015
+									</span>
+									<h6 class="text-uppercase text-left">
+										<a href="#" class="recent-link"> Lorem Ipsum Right now </a>
+									</h6>
+								</div>
+							</div>
+							<div class="recent-post-info d-flex">
+								<img src="images/recent.jpg" alt="post">
+								<div class="rp-description">
+									<span class="date">
+										july 14,2015
+									</span>
+									<h6 class="text-uppercase text-left">
+										<a href="#" class="recent-link"> Lorem Ipsum Right now </a>
+									</h6>
+								</div>
+							</div>	
+						</div>
+						<!--  Recent end here -->
+
+						<!--  Search box here -->
+						<form action="" >
+      						<div class="input-group">
+        						<input type="text" class="form-control" placeholder="Search..." name="search">
+        						<div class="input-group-btn">
+          							<button class="btn btn-default" type="submit">
+            							<i class="fas fa-search text-white"></i>
+          							</button>
+        						</div>
+      						</div>
+    					</form>
+						<!--  Search box end here -->
+
+						<!--  Banner Start here -->
+						<div class="banner mt-40">
+							<h3 class="text-uppercase heading text-center">Banner</h3>
+							<hr>
+							<img src="images/banner.jpg" alt="banner">
+						</div>
+						<!--  Banner End here -->
+
+						<!--  Find us start here -->
+						 <div class="find-us mt-40" >
+						 	<h3 class="text-uppercase heading text-center">Find us on facebook</h3>
+							<hr>
+							 <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="100%" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+						 </div>
+						<!--  Find us end here -->
+
+						<!--  Tag Start here -->
+						<div class="tag mt-40">
+							<h3 class="text-uppercase heading text-center">tag</h3>
+							<hr>
+							<button type="button" class=" btn-outline-dark text-uppercase">Fashion</button>
+							<button type="button" class=" btn-outline-dark text-uppercase">Music</button>
+							<button type="button" class=" btn-outline-dark text-uppercase">Lorem tag</button>
+							<button type="button" class=" btn-outline-dark text-uppercase">Tag</button>
+							<button type="button" class=" btn-outline-dark text-uppercase">Ipsum tag</button>
+							<button type="button" class=" btn-outline-dark text-uppercase">Travel</button>
+							<button type="button" class=" btn-outline-dark text-uppercase">Fashion</button>
+							<button type="button" class=" btn-outline-dark text-uppercase">Music</button>
+						</div>
+						<!--  Tag End here -->
+				  </div>
+				</div>	
+			</div>
+		</section>
+		<!--  Post end here -->
+
+		<!--  follow insta start here -->
+		<section class="follow-insta" >
+			<div class="container-fluid">
+				<div class="row">
+				    <div class="col-md-12 p-0">
+						<div class="follow-cityblog">
+							<div class="insta-heading">
+								<h6>Follow @cityblog</h6>
+								<div class="insta-icon d-flex justify-content-center align-items-center">
+									<a href="#">
+							        	<i class="fab fa-instagram"></i>
+							        </a>
+								    <h2>instgram</h2>
+								</div>
+							</div>	
+							<div class="insta-img">
+								<div>
+									<img src="images/insta.jpg" alt="img1" title="instgram"> 
+								</div>
+								<div>
+									<img src="images/insta2.jpg" alt="img1" title="instgram"> 
+								</div>
+								<div>
+									<img src="images/insta3.jpg" alt="img1" title="instgram"> 
+								</div>
+								<div>
+									<img src="images/insta4.jpg" alt="img1" title="instgram"> 
+								</div>
+								<div>
+									<img src="images/insta5.jpg" alt="img1" title="instgram"> 
+								</div>
+								<div>
+									<img src="images/insta6.jpg" alt="img1" title="instgram"> 
+								</div>
+								<div>
+									<img src="images/insta.jpg" alt="img1" title="instgram"> 
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</section>	
+		<!--  follow insta end here -->
+
+		<!--  footer start here -->	
+		<footer>
+			<div class="container-fluid bg-color" >
+				<div class="row justify-content-center">
+					<div class="footer-icon">
+						<ul class="footer-social text-center m-0">
+					        <li>
+					        	<a href="#">
+					       		 	<i class="fab fa-twitter"></i>
+					       		</a>
+					        </li>
+					        <li>
+					        	<a href="#">
+					        		<i class="fab fa-facebook-f"></i>
+					        	</a>
+					       	</li>
+					       	<li>
+					        	<a href="#">
+					        		<i class="fab fa-linkedin-in"></i>
+					        	</a>
+					       	</li>
+					        <li>
+					        	<a href="#">
+					        		<i class="fab fa-instagram"></i>
+					        	</a>
+					       	</li>
+					       	<li>
+					        	<a href="#">
+					        		<i class="fab fa-google-plus-g"></i>
+					        	</a>
+					        </li>
+					    </ul>
+					</div>
+				</div>
+			</div>
+			<div class="container-fluid">
+				<div class="row justify-content-center">
+					<div class="copyright text-center">
+					<h2>on top</h2>
+					<p class="copyright-text">copyright 2009-2016 City Blog LLC</p>
+				</div>	
+				</div>
+			</div>
+		</footer>
+		<!--  footer end here -->
+	</main>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.3"></script>
+<script src="https://unpkg.com/aos@2.3.0/dist/aos.js"></script>
+<script>
+	AOS.init({
+  duration: 1200,
+})
+
+</script>
+<script>
+	$(document).ready(function() {
+ 
+  // Fakes the loading setting a timeout
+    setTimeout(function() {
+        $('body').addClass('loaded');
+    }, 3500);
+ 
+});
+</script>
+</body>
+</html>
