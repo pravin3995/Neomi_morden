@@ -295,9 +295,9 @@ a.recent-link {
 .rp-description {
   margin-left: 20px;
 }
-.col-md-3 {
+/*.col-md-3 {
   padding: 0;
-}
+}*/
 .recent-post-info {
   margin-bottom: 22px;
 }
@@ -325,6 +325,9 @@ Search Box section start
 
 .input-group .btn {
   padding: 13px;
+}
+.banner img {
+  width: 100%;
 }
 /*==========================================================================
 Instagram section start
@@ -367,11 +370,14 @@ Media Queries
 ==========================================================================*/
 @media screen and (max-width:1200px) {
   .container {
-    max-width: 1000px;
+    max-width: 1240px;
+  }
+  .beauty-healt-life {
+     padding: 85px 10px 40px 10px;
   }
   .post-info >.border-box {
-    width: 340px;
     padding: 20px 39px 10px 56px;
+    width: 100%;
   }
   .border-box >h4 {
     font-size: 16px;
@@ -394,6 +400,7 @@ Media Queries
   .post-social {
     margin-top: 12px;
   }
+
   iframe {
     height: 200px;
   }
@@ -401,6 +408,9 @@ Media Queries
 }
 
 @media screen and (max-width:992px) {
+  .container {
+    max-width: 900px;
+  }
   .navbar-nav {
     background-color: #9c7d37a3;
   }
@@ -441,25 +451,49 @@ Media Queries
   .header-top-social {
     display: none;
   }
+ .posts .post {
+    display: block !important;
+  }
+  .post-info {
+    transform: none;
+  }
+  .col-md-1{
+    padding: 0;
+    max-width: 2%;
+  }
+  .post-info >.border-box {
+    width: 100%;
+  }
+  .post-image img{
+    max-width: 100%;
+    width: 100%;
+  }
+  .col-md-3 {
+    max-width: 30%;
+  }
 }
 @media screen and (max-width:768px) {
   .container-fluid {
     padding: 0 28px;
   }
-  /*.posts .container {
+  .container {
+    width: 100%;
+  }
+  .posts .container {
     max-width: 640px;
-  }*/
+  }
+  .post {
+    display: flex;
+  }
+  .post-info >.border-box{
+    padding: 25px 20px 10px 60px;
+    width: 100%;
+  }
   .beauty-healt-life {
     margin-bottom: 10px;
   }
   .wrapper {
     margin-bottom: 40px;
-  }
-  .post-info >.border-box {
-    width: 313px;
-  }
-  .post-image img {
-   max-width:344px;
   }
   .navbar button i {
     font-size: 25px;
@@ -470,8 +504,14 @@ Media Queries
   .beauty-healt-life {
     padding: 85px 27px 34px 27px;
   }
+  /*recent*/
+  .recent-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 }
-@media screen and (max-width:576px){
+@media screen and (max-width:690px){
   /*About me*/
   .about-me {
     margin-top: 100px;
@@ -484,6 +524,9 @@ Media Queries
    max-width: 100%;
    width: 100%
  }
+ .post {
+    display:block;
+  }
  .post-info >.border-box {
     width: 100%;
  }
