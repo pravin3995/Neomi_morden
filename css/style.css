@@ -372,9 +372,9 @@ Media Queries
   .container {
     max-width: 1240px;
   }
-  .beauty-healt-life {
+ /* .beauty-healt-life {
      padding: 85px 10px 40px 10px;
-  }
+  }*/
   .post-info >.border-box {
     padding: 20px 39px 10px 56px;
     width: 100%;
@@ -448,7 +448,7 @@ Media Queries
   .logo img {
     max-width: 220px;
   }
-  .header-top-social {
+  nav .header-top-social {
     display: none;
   }
  .posts .post {
@@ -459,7 +459,7 @@ Media Queries
   }
   .col-md-1{
     padding: 0;
-    max-width: 2%;
+    max-width: 7%;
   }
   .post-info >.border-box {
     width: 100%;
@@ -470,6 +470,12 @@ Media Queries
   }
   .col-md-3 {
     max-width: 30%;
+  }
+  .about-img {
+    width: 150px;
+  }
+  .about-img img {
+    right: -15px;
   }
 }
 @media screen and (max-width:768px) {
@@ -510,8 +516,14 @@ Media Queries
     flex-wrap: wrap;
     justify-content: space-between;
   }
+  .col-md-3 {
+    max-width: 100%;
+  }
 }
 @media screen and (max-width:690px){
+  .col-md-3 {
+    max-width: 100%;
+  }
   /*About me*/
   .about-me {
     margin-top: 100px;
